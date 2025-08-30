@@ -33,9 +33,10 @@ export default function Header({ darkMode, toggleDarkMode }: HeaderProps) {
           {/* Logo */}
           <Link 
             to="/" 
-            className="text-xl font-medium tracking-wider font-clash text-text-primary hover:text-blue-primary transition-colors"
+            className="font-display font-medium text-xl text-foreground hover:text-accent transition-colors"
+            data-ninja-font="spacegrotesk_light_normal_u3bhy"
           >
-            MUH. FATHIN
+            MFA
           </Link>
 
           {/* Desktop Navigation */}
